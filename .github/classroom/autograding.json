@@ -2,141 +2,313 @@
   "tests": [
     {
       "name": "Jurnal01a",
-      "setup": "javac Modul04/Jurnal01.java",
-      "run": "java -cp Modul04 Jurnal01",
-      "input": "8",
-      "output": "Faktor dari 24 dan 56",
+      "setup": "javac Modul05/Jurnal01.java",
+      "run": "java -cp Modul05 Jurnal01",
+      "input": "1 3",
+      "output": "Nasi Goreng 3 buah, total harga Rp. 45.000",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 5
     },
 	{
       "name": "Jurnal01b",
-      "setup": "javac Modul04/Jurnal01.java",
-      "run": "java -cp Modul04 Jurnal01",
-      "input": "9",
-      "output": "Bukan faktor dari 24 dan 56",
+      "setup": "javac Modul05/Jurnal01.java",
+      "run": "java -cp Modul05 Jurnal01",
+      "input": "3 6",
+      "output": "Kwetiau Goreng / Nyemek 6 buah, total harga Rp. 120.000",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 5
     },
-    {
+	  {
       "name": "Jurnal02a",
-      "setup": "javac Modul04/Jurnal02.java",
-      "run": "java -cp Modul04 Jurnal02",
-      "input": "45",
-      "output": "Penghasilan kotor = 45 juta Rupiah\nPajak 5% = Rp. 2250000\nPenghasilan bersih = Rp. 42750000",
+      "setup": "javac Modul05/Jurnal02.java",
+      "run": "java -cp Modul05 Jurnal02",
+      "input": "Senin\n2",
+      "output": "Rabu",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 5
     },
-    {
+	{
       "name": "Jurnal02b",
-      "setup": "javac Modul04/Jurnal02.java",
-      "run": "java -cp Modul04 Jurnal02",
-      "input": "525",
-      "output": "Penghasilan kotor = 525 juta Rupiah\nPajak 30% = Rp. 157500000\nPenghasilan bersih = Rp. 367500000",
+      "setup": "javac Modul05/Jurnal02.java",
+      "run": "java -cp Modul05 Jurnal02",
+      "input": "Rabu\n10",
+      "output": "Sabtu",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 5
     },
     {
+      "name": "Jurnal02c",
+      "setup": "javac Modul05/Jurnal02.java",
+      "run": "java -cp Modul05 Jurnal02",
+      "input": "Senin\n50",
+      "output": "Selasa",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Jurnal02d",
+      "setup": "javac Modul05/Jurnal02.java",
+      "run": "java -cp Modul05 Jurnal02",
+      "input": "Jum'at\n240",
+      "output": "Selasa",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+	{
       "name": "Jurnal03a",
-      "setup": "javac Modul04/Jurnal03.java",
-      "run": "java -cp Modul04 Jurnal03",
-      "input": "65 68 64",
-      "output": "Idar, Dira, Radi",
+      "setup": "javac Modul05/Jurnal03.java",
+      "run": "java -cp Modul05 Jurnal03",
+      "input": "3 - 1",
+      "output": "2",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
-    },{
+      "points": 5
+    },
+	{
       "name": "Jurnal03b",
-      "setup": "javac Modul04/Jurnal03.java",
-      "run": "java -cp Modul04 Jurnal03",
-      "input": "71 65 69",
-      "output": "Radi, Idar, Dira",
+      "setup": "javac Modul05/Jurnal03.java",
+      "run": "java -cp Modul05 Jurnal03",
+      "input": "1 + 3",
+      "output": "4",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
-    },{
+      "points": 5
+    },
+	{
       "name": "Jurnal03c",
-      "setup": "javac Modul04/Jurnal03.java",
-      "run": "java -cp Modul04 Jurnal03",
-      "input": "70 72 75",
-      "output": "Dira, Radi, Idar",
+      "setup": "javac Modul05/Jurnal03.java",
+      "run": "java -cp Modul05 Jurnal03",
+      "input": "4 * 3",
+      "output": "12",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 5
+    },
+	{
+      "name": "Jurnal03d",
+      "setup": "javac Modul05/Jurnal03.java",
+      "run": "java -cp Modul05 Jurnal03",
+      "input": "2 / 3",
+      "output": "0.6666667",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Jurnal03e",
+      "setup": "javac Modul05/Jurnal03.java",
+      "run": "java -cp Modul05 Jurnal03",
+      "input": "52 / 2",
+      "output": "26",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Jurnal03f",
+      "setup": "javac Modul05/Jurnal03.java",
+      "run": "java -cp Modul05 Jurnal03",
+      "input": "7 * 7",
+      "output": "49",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Jurnal03g",
+      "setup": "javac Modul05/Jurnal03.java",
+      "run": "java -cp Modul05 Jurnal03",
+      "input": "10 + 10",
+      "output": "20",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Jurnal03h",
+      "setup": "javac Modul05/Jurnal03.java",
+      "run": "java -cp Modul05 Jurnal03",
+      "input": "50 - 3",
+      "output": "47",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
     },
     {
       "name": "TP01a",
-      "setup": "javac Modul04/TP01.java",
-      "run": "java -cp Modul04 TP01",
-      "input": "24",
-      "output": "Kelipatan enam",
+      "setup": "javac Modul05/TP01.java",
+      "run": "java -cp Modul05 TP01",
+      "input": "januari",
+      "output": "janvier",
       "comparison": "included",
       "timeout": 10,
-      "points": 5
+      "points": 0
     },
     {
-      "name": "TP01b",
-      "setup": "javac Modul04/TP01.java",
-      "run": "java -cp Modul04 TP01",
-      "input": "14",
-      "output": "Bukan kelipatan enam",
+      "name": "TP01c",
+      "setup": "javac Modul05/TP01.java",
+      "run": "java -cp Modul05 TP01",
+      "input": "oktober",
+      "output": "oktobre",
       "comparison": "included",
       "timeout": 10,
-      "points": 5
-    },  
+      "points": 2
+    },
+    {
+      "name": "TP01d",
+      "setup": "javac Modul05/TP01.java",
+      "run": "java -cp Modul05 TP01",
+      "input": "februari",
+      "output": "fevrier",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TP01e",
+      "setup": "javac Modul05/TP01.java",
+      "run": "java -cp Modul05 TP01",
+      "input": "mei",
+      "output": "mai",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TP01f",
+      "setup": "javac Modul05/TP01.java",
+      "run": "java -cp Modul05 TP01",
+      "input": "desember",
+      "output": "decembre",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },  	  
     {
       "name": "TP02a",
-      "setup": "javac Modul04/TP02.java",
-      "run": "java -cp Modul04 TP02",
-      "input": "300000",
-      "output": "Transaksi = 300000\nTotal = 300000 - 15000\nPpn 11% = 31350.0\nTotal dibayar = 316350.0",
+      "setup": "javac Modul05/TP02.java",
+      "run": "java -cp Modul05 TP02",
+      "input": "2",
+      "output": "dimanche",
       "comparison": "included",
       "timeout": 10,
-      "points": 5
+      "points": 0
     },
     {
       "name": "TP02b",
-      "setup": "javac Modul04/TP02.java",
-      "run": "java -cp Modul04 TP02",
-      "input": "150000",
-      "output": "Transaksi = 150000\nTotal = 150000\nPpn 11% = 16500.0\nTotal dibayar = 166500.0",
+      "setup": "javac Modul05/TP02.java",
+      "run": "java -cp Modul05 TP02",
+      "input": "17",
+      "output": "lundi",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "TP02c",
+      "setup": "javac Modul05/TP02.java",
+      "run": "java -cp Modul05 TP02",
+      "input": "5",
+      "output": "mercredi",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TP02d",
+      "setup": "javac Modul05/TP02.java",
+      "run": "java -cp Modul05 TP02",
+      "input": "1",
+      "output": "samedi",
       "comparison": "included",
       "timeout": 10,
       "points": 5
     },
     {
       "name": "TP03a",
-      "setup": "javac Modul04/TP03.java",
-      "run": "java -cp Modul04 TP03",
-      "input": "65 68 64",
-      "output": "Radi",
+      "setup": "javac Modul05/TP03.java",
+      "run": "java -cp Modul05 TP03",
+      "input": "Persegi\n3",
+      "output": "9 12",
       "comparison": "included",
       "timeout": 10,
-      "points": 3
+      "points": 0
     },
     {
       "name": "TP03b",
-      "setup": "javac Modul04/TP03.java",
-      "run": "java -cp Modul04 TP03",
-      "input": "71 65 69",
-      "output": "Dira",
+      "setup": "javac Modul05/TP03.java",
+      "run": "java -cp Modul05 TP03",
+      "input": "Persegi Panjang\n2 3",
+      "output": "6 10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+	{
+      "name": "TP03c",
+      "setup": "javac Modul05/TP03.java",
+      "run": "java -cp Modul05 TP03",
+      "input": "Segitiga\n3 4",
+      "output": "6 12",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "TP03d",
+      "setup": "javac Modul05/TP03.java",
+      "run": "java -cp Modul05 TP03",
+      "input": "Lingkaran\n14",
+      "output": "153.86 43.96",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "TP03e",
+      "setup": "javac Modul05/TP03.java",
+      "run": "java -cp Modul05 TP03",
+      "input": "Persegi\n5",
+      "output": "25 20",
       "comparison": "included",
       "timeout": 10,
       "points": 3
     },
     {
-      "name": "TP03c",
-      "setup": "javac Modul04/TP03.java",
-      "run": "java -cp Modul04 TP03",
-      "input": "70 72 75",
-      "output": "Idar",
+      "name": "TP03f",
+      "setup": "javac Modul05/TP03.java",
+      "run": "java -cp Modul05 TP03",
+      "input": "Persegi Panjang\n6 4",
+      "output": "24 20",
       "comparison": "included",
       "timeout": 10,
-      "points": 4
+      "points": 2
+    },
+    {
+      "name": "TP03g",
+      "setup": "javac Modul05/TP03.java",
+      "run": "java -cp Modul05 TP03",
+      "input": "Segitiga\n8 10",
+      "output": "40 31",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TP03h",
+      "setup": "javac Modul05/TP03.java",
+      "run": "java -cp Modul05 TP03",
+      "input": "Lingkaran\n49",
+      "output": "1884.79 153.86",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
     }
   ]
 }

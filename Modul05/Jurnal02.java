@@ -65,7 +65,7 @@ public class Jurnal02 {
                 hariBaru = "Minggu";
                 break;
             default:
-                hariBaru = "Error";
+                hariBaru = "hari tidak valid";
                 break;
         }
 

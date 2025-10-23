@@ -13,8 +13,8 @@ public class Jurnal01 {
         }else {
             System.out.println();
         }
-        System.out.println("Halo " + a + ". Selamat " + time + ".");
-        System.out.println("Halo " + b + ". Selamat " + time + ".");
+        System.out.println("Halo, " + a + ". Selamat " + time + ".");
+        System.out.println("Halo, " + b + ". Selamat " + time + ".");
     }
 
     public static void main(final String[] args) {

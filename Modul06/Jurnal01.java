@@ -8,10 +8,10 @@ public class Jurnal01 {
             time = "siang";
         }else if (c >= 15 && c <= 17){
             time = "sore";
-        }else if (c >= 18 || c <= 5) {
+        }else if (c <= 18 && c >= 5) {
             time = "malam";
-        }else {
-            System.out.println();
+        }else if ( c >= 24) {
+            time = "error ganteng";
         }
         System.out.println("Halo, " + a + ". Selamat " + time + ".");
         System.out.println("Halo, " + b + ". Selamat " + time + ".");

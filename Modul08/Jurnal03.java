@@ -1,20 +1,32 @@
 import java.util.Scanner;
 
-public class TP02 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);   
-        long N = sc.nextLong();                
-        sc.close();                            
+public class Jurnal03 {
 
-        long hasil = 0;                        
+    public static void main(final String[] args) {
+        Scanner masukan = new Scanner(System.in);
 
-        
-        while (N != 0) {
-            long digit = N % 10;              
-            hasil = hasil * 10 + digit;       
-            N /= 10;                          
+        int angka = masukan.nextInt();
+        int angkaAsli = angka;
+        int total = 0;
+
+        while (angka != 0) {
+            int digit = angka % 10;
+            
+            int faktorial = 1;
+            int c = 1;
+            while (c <= digit) {
+                faktorial *= c;
+                c++;
+            }
+
+            total += faktorial;
+            angka /= 10;
         }
 
-        System.out.println(hasil);            
+        if(total == angkaAsli){
+            System.out.println("YA");
+        } else {
+            System.out.println("BUKAN");
+        }
     }
 }
